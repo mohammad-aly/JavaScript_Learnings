@@ -1,0 +1,39 @@
+body{
+    background-color: green;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: 600;
+}
+h2{
+    color: yellow;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+/* button{
+    display: block;
+} */
+
+.btn-primary{
+    background-color: yellow;
+    font-weight: bold;
+    color: green;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+}
+.btn-secondary{
+    background-color: yellow;
+    font-weight: bold;
+    color: green;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    margin: 7px;
+}
