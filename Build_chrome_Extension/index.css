@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    padding: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+input{
+    width: 100%;
+    padding:10px;
+    display: inline-block;
+    margin-bottom: 6px;
+    border: 1.5px solid #0062ff;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #0062ff;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+#ul-el{
+    margin: 20px 0 0 30px;
+}
