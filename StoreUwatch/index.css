@@ -8,6 +8,7 @@
 body{
     padding: 10px;
     font-family: "Helvetica Neue",Helvetica,Arial;
+    min-width: 500px;
 }
 
 input{
@@ -15,17 +16,26 @@ input{
     padding:10px;
     display: inline-block;
     margin-bottom: 6px;
-    border: 1.5px solid #0062ff;
+    border: 1.5px solid #006;
 }
 
 button{
     padding: 10px 15px;
-    background-color: #0062ff;
+    background-color: #006;
     color: white;
     border: none;
     font-weight: bold;
 }
 
 #ul-el{
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+
+#ul-el li{
+    margin-top: 5px;
+}
+
+#ul-el li a{
+    color: #006;
 }
